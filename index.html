@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Александра Погудкина — врач-косметолог в Тбилиси | Запись в Telegram</title>
+  <meta name="description" content="Врач-косметолог Александра Погудкина — инъекции, уходовые процедуры и консультации в Тбилиси. Индивидуальные планы, безопасность, адрес 12 Giorgi Akhvlediani St, Wow Space.">
+  <meta property="og:title" content="Александра Погудкина — врач-косметолог в Тбилиси">
+  <meta property="og:description" content="Запись на процедуры и консультации: инъекции, уход, персональный план. Приём в Wow Space, Тбилиси.">
+  <meta property="og:image" content="assets/og-image.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #FAFAFA;
+      --text: #1C1C1C;
+      --muted: #4F4F4F;
+      --accent: #2BA6A4;
+      --accent-dark: #238d8b;
+      --border: #EAEAEA;
+      --card-radius: 20px;
+      --shadow: 0 12px 30px rgba(43, 166, 164, 0.12);
+      --transition: 0.3s ease;
+      font-size: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    .page-wrapper {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 20px 80px;
+    }
+
+    header {
+      padding: 24px 0 64px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      align-items: stretch;
+      background: #fff;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow);
+      padding: 32px 24px;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .hero-intro {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero-title {
+      font-size: clamp(34px, 5vw, 40px);
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .hero-subtitle {
+      font-size: 18px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 24px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+      transition: background var(--transition), transform var(--transition);
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .hero-cta:hover,
+    .hero-cta:focus-visible {
+      background: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+
+    .badge {
+      background: #F1FBFB;
+      color: var(--accent-dark);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .hero-photo {
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    main section {
+      margin-bottom: 72px;
+    }
+
+    section h2 {
+      font-size: clamp(26px, 4vw, 30px);
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .about-card {
+      background: #fff;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow);
+      padding: 32px 24px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .about-text p {
+      margin: 0 0 12px;
+      font-size: 17px;
+    }
+
+    .about-icons {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .about-icon {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px;
+      background: #F8FFFF;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    .about-icon svg {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      color: var(--accent);
+    }
+
+    .services {
+      display: grid;
+      gap: 24px;
+    }
+
+    .service-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .service-tab {
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #fff;
+      cursor: pointer;
+      transition: var(--transition);
+      font-weight: 500;
+    }
+
+    .service-tab[aria-selected="true"] {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .service-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: var(--card-radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      border: 1px solid rgba(43,166,164,0.08);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(43, 166, 164, 0.18);
+    }
+
+    .service-card h3 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .service-meta {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .service-card button {
+      align-self: flex-start;
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      background: #F1FBFB;
+      color: var(--accent-dark);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .service-card button:hover,
+    .service-card button:focus-visible {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .certificates-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .certificate-card {
+      background: #fff;
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: transform var(--transition);
+    }
+
+    .certificate-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .certificate-card figcaption {
+      padding: 16px;
+      font-size: 15px;
+      background: #fff;
+    }
+
+    .reviews-slider {
+      position: relative;
+      background: #fff;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow);
+      padding: 32px 24px;
+      overflow: hidden;
+    }
+
+    .reviews-track {
+      display: flex;
+      transition: transform 0.4s ease;
+      gap: 20px;
+    }
+
+    .review-card {
+      min-width: calc(100% - 10px);
+      background: #F8FFFF;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid var(--border);
+    }
+
+    .review-card h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .slider-controls {
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .slider-button {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .slider-button:hover,
+    .slider-button:focus-visible {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .slider-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.4;
+    }
+
+    .slider-button:disabled:hover,
+    .slider-button:disabled:focus-visible {
+      background: #fff;
+      color: inherit;
+      border-color: var(--border);
+    }
+
+    .articles-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .article-card {
+      background: #fff;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border);
+    }
+
+    .article-card img {
+      height: 180px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .article-content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .article-date {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .article-card button {
+      align-self: flex-start;
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      background: #F1FBFB;
+      color: var(--accent-dark);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .article-card button:hover,
+    .article-card button:focus-visible {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .contacts {
+      background: #fff;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow);
+      padding: 32px 24px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .contact-item svg {
+      width: 22px;
+      height: 22px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 16px;
+      min-height: 220px;
+    }
+
+    footer {
+      padding: 32px 0 56px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .lightbox,
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .lightbox[aria-hidden="false"],
+    .modal[aria-hidden="false"] {
+      display: flex;
+    }
+
+    .lightbox-content,
+    .modal-content {
+      background: #fff;
+      border-radius: 16px;
+      max-width: min(90vw, 720px);
+      width: 100%;
+      padding: 24px;
+      position: relative;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    .lightbox-content img {
+      border-radius: 12px;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: #F1FBFB;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+
+    .close-button:hover,
+    .close-button:focus-visible {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    @media (min-width: 480px) {
+      .review-card {
+        min-width: calc(50% - 10px);
+      }
+
+      iframe {
+        min-height: 280px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      header {
+        padding-bottom: 80px;
+      }
+
+      .hero {
+        flex-direction: row;
+        align-items: center;
+        padding: 40px;
+      }
+
+      .hero-photo {
+        flex: 1;
+      }
+
+      .hero-content {
+        flex: 1.2;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .certificates-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .reviews-track {
+        gap: 24px;
+      }
+
+      .articles-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      iframe {
+        min-height: 320px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .hero {
+        gap: 40px;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .certificates-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .review-card {
+        min-width: calc(33.33% - 14px);
+      }
+
+      .articles-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      iframe {
+        min-height: 360px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-photo">
+          <!-- TODO: заменить заглушки картинок на реальные. -->
+          <img src="assets/alexandra-hero.webp" alt="Портрет врача-косметолога Александры Погудкиной" loading="lazy">
+        </div>
+        <div class="hero-content">
+          <div class="hero-intro">
+            <h1 id="hero-title" class="hero-title">Александра Погудкина — врач-косметолог</h1>
+            <p class="hero-subtitle">Естественные результаты без перегрузки. Работаю деликатно, с соблюдением протоколов безопасности и персональным планом ухода.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="hero-cta" href="https://t.me/SashaTalan" target="_blank" rel="noopener noreferrer" aria-label="Записаться на приём в Telegram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.5 3.5L2.5 11.5L9 13.5L17 7.5L11.5 14.5L17.5 20.5L21.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Записаться в Telegram
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Основная информация">
+            <span class="badge" aria-label="Языки обслуживания RU и EN">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 3.5C7.30558 3.5 3.5 7.30558 3.5 12C3.5 16.6944 7.30558 20.5 12 20.5C16.6944 20.5 20.5 16.6944 20.5 12C20.5 7.30558 16.6944 3.5 12 3.5Z" stroke="currentColor" stroke-width="1.5" />
+                <path d="M3.5 12H20.5" stroke="currentColor" stroke-width="1.5" />
+                <path d="M12 3.5C9.66667 6.5 8.5 9.16667 8.5 12C8.5 14.8333 9.66667 17.5 12 20.5C14.3333 17.5 15.5 14.8333 15.5 12C15.5 9.16667 14.3333 6.5 12 3.5Z" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+              RU / EN
+            </span>
+            <span class="badge" aria-label="График работы Понедельник по Воскресенье, 10:00 до 19:00">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M7 3.5V6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M17 3.5V6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <rect x="4" y="6.5" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
+                <path d="M9 11.5H12V14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Пн–Вс 10:00–19:00
+            </span>
+            <span class="badge" aria-label="Форматы: офлайн и онлайн консультации">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M7.5 6.5H16.5V17.5H7.5V6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path d="M16.5 10.5L20.5 7.5V16.5L16.5 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Оффлайн / онлайн
+            </span>
+          </div>
+          <div class="hero-details">
+            <p><strong>Локация:</strong> Тбилиси, 12 Giorgi Akhvlediani St (коворкинг Wow Space).</p>
+            <p><strong>Контакты для записи:</strong> <a href="tel:+995598009824">+995 598 009 824</a> · <a href="mailto:drpogudkina@gmail.com">drpogudkina@gmail.com</a></p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">О специалисте</h2>
+        <article class="about-card">
+          <div class="about-text">
+            <p>Окончила медицинский университет, имею действующий диплом врача и регулярно прохожу курсы по косметологии и дерматологии.</p>
+            <p>Работаю с инъекционными методиками, уходовыми протоколами и персональными консультациями как офлайн, так и онлайн.</p>
+            <p>Ставлю на первое место естественность, деликатные техники и тщательное соблюдение стерильности на каждом этапе.</p>
+            <p>Составляю индивидуальные планы ухода, чтобы поддерживать кожу здоровой и сияющей в долгосрочной перспективе.</p>
+          </div>
+          <div class="about-icons" aria-label="Принципы работы">
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 21C12 21 3 15 3 9.5C3 6.5 5.5 4 8.5 4C10.24 4 11.91 4.91 12.63 6.41C13.36 4.91 15.03 4 16.77 4C19.77 4 22.27 6.5 22.27 9.5C22.27 15 13.27 21 13.27 21H12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>Безопасность и стерильность</span>
+            </div>
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 4C12 4 16 4 18 6C20 8 20 12 20 12C20 12 20 16 18 18C16 20 12 20 12 20C12 20 8 20 6 18C4 16 4 12 4 12C4 12 4 8 6 6C8 4 12 4 12 4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>Естественный результат</span>
+            </div>
+            <div class="about-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-width="1.5" />
+                <path d="M4 20C4 16.6863 6.68629 14 10 14H14C17.3137 14 20 16.6863 20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+              <span>Индивидуальный подход</span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="services" aria-labelledby="services-title">
+        <h2 id="services-title">Услуги</h2>
+        <div class="services">
+          <div class="service-tabs" role="tablist" aria-label="Категории услуг"></div>
+          <div class="service-grid" id="service-grid" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="certificates" aria-labelledby="certificates-title">
+        <h2 id="certificates-title">Дипломы и сертификаты</h2>
+        <div class="certificates-grid" role="list"></div>
+      </section>
+
+      <section id="reviews" aria-labelledby="reviews-title">
+        <h2 id="reviews-title">Отзывы</h2>
+        <div class="reviews-slider" aria-live="polite">
+          <div class="reviews-track"></div>
+          <div class="slider-controls">
+            <button class="slider-button" type="button" aria-label="Предыдущий отзыв">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="slider-button" type="button" aria-label="Следующий отзыв">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="articles" aria-labelledby="articles-title">
+        <h2 id="articles-title">Статьи</h2>
+        <div class="articles-grid"></div>
+      </section>
+
+      <section id="contacts" aria-labelledby="contacts-title">
+        <h2 id="contacts-title">Контакты и карта</h2>
+        <div class="contacts">
+          <div class="contact-list" role="list">
+            <div class="contact-item" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6.6 3.5H9.4L11 7.5L8.8 8.9C9.6 10.5 10.9 11.8 12.5 12.6L13.9 10.4L17.9 12L18.5 15.5C18.5 15.5 16.3 18.5 12 18.5C7.7 18.5 5.5 15.5 5.5 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <a href="tel:+995598009824">+995 598 009 824</a>
+            </div>
+            <div class="contact-item" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 6.5L12 12.5L20 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M5 6.5H19C20.1046 6.5 21 7.39543 21 8.5V16.5C21 17.6046 20.1046 18.5 19 18.5H5C3.89543 18.5 3 17.6046 3 16.5V8.5C3 7.39543 3.89543 6.5 5 6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <a href="mailto:drpogudkina@gmail.com">drpogudkina@gmail.com</a>
+            </div>
+            <div class="contact-item" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M21.5 3.5L2.5 11.5L9 13.5L17 7.5L11.5 14.5L17.5 20.5L21.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <a href="https://t.me/SashaTalan" target="_blank" rel="noopener noreferrer">@SashaTalan</a>
+            </div>
+            <div class="contact-item" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M7 3.5H17C19.2091 3.5 21 5.29086 21 7.5V16.5C21 18.7091 19.2091 20.5 17 20.5H7C4.79086 20.5 3 18.7091 3 16.5V7.5C3 5.29086 4.79086 3.5 7 3.5Z" stroke="currentColor" stroke-width="1.5" />
+                <path d="M7 9.5C7 9.5 8.5 11.5 12 11.5C15.5 11.5 17 9.5 17 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M7 15.5C7 15.5 8.5 13.5 12 13.5C15.5 13.5 17 15.5 17 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+              <a href="https://www.instagram.com/sasha_talan?igsh=MXRraDVwdmllYnM5OA==" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="contact-item" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 21C12 21 5 15.5 5 10.5C5 7.46243 7.46243 5 10.5 5C12.0625 5 13.5375 5.64645 14.6 6.75C15.6625 5.64645 17.1375 5 18.7 5C21.7376 5 24.2 7.46243 24.2 10.5C24.2 15.5 17.2 21 17.2 21H12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span>Тбилиси, 12 Giorgi Akhvlediani St (Wow Space)</span>
+            </div>
+          </div>
+          <iframe
+            title="Карта — Wow Space"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=12%20Giorgi%20Akhvlediani%20St%2C%20Tbilisi%2C%20Wow%20Space&output=embed">
+          </iframe>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="page-wrapper">
+      <p>© 2025 Александра Погудкина. Врач-косметолог, Тбилиси.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Просмотр документа">
+    <div class="lightbox-content">
+      <button class="close-button" type="button" aria-label="Закрыть просмотр">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 6L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M18 6L6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <img src="" alt="Документ" loading="lazy">
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <div class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Статья">
+    <div class="modal-content">
+      <button class="close-button" type="button" aria-label="Закрыть статью">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 6L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M18 6L6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <h3 class="modal-title"></h3>
+      <p class="modal-date"></p>
+      <div class="modal-body">
+        <p>Здесь будет авторский материал Александры с рекомендациями, нюансами подготовки и домашнего ухода. Для демонстрации использован текст-рыба. Полная статья будет опубликована позже.</p>
+        <p>В финальной версии мы расскажем о ключевых шагах, противопоказаниях и поддерживающих протоколах, чтобы пациенты чувствовали себя уверенно на каждом этапе взаимодействия.</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "#clinic",
+          "name": "Кабинет косметологии Александры Погудкиной",
+          "image": "assets/og-image.webp",
+          "url": "https://t.me/SashaTalan",
+          "priceRange": "₾₾",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "12 Giorgi Akhvlediani St",
+            "addressLocality": "Тбилиси",
+            "addressCountry": "GE"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+995598009824",
+            "contactType": "customer service",
+            "availableLanguage": ["Russian", "English"]
+          },
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "name": "Инъекционные процедуры",
+              "priceCurrency": "GEL"
+            },
+            {
+              "@type": "Offer",
+              "name": "Уходовые процедуры",
+              "priceCurrency": "GEL"
+            },
+            {
+              "@type": "Offer",
+              "name": "Консультации",
+              "priceCurrency": "GEL"
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Александра Погудкина",
+          "jobTitle": "Врач-косметолог",
+          "image": "assets/alexandra-hero.webp",
+          "email": "mailto:drpogudkina@gmail.com",
+          "telephone": "+995598009824",
+          "sameAs": [
+            "https://www.instagram.com/sasha_talan?igsh=MXRraDVwdmllYnM5OA==",
+            "https://t.me/SashaTalan"
+          ],
+          "worksFor": { "@id": "#clinic" }
+        }
+      ]
+    }
+  </script>
+
+  <script>
+    const servicesData = {
+      "Инъекции": [
+        { title: "Ботулинотерапия (зоны лба/межбровья/гусиные лапки)", price: "от 180 ₾", description: "Точечная работа с мимическими морщинами для свежего взгляда." },
+        { title: "Контурная пластика (филлеры гиалуроновой кислоты)", price: "от 480 ₾", description: "Восстановление объёмов и гармонизация черт с сохранением естественности." },
+        { title: "Биоревитализация / мезотерапия", price: "от 220 ₾", description: "Глубокое увлажнение и восстановление кожи курсом деликатных инъекций." }
+      ],
+      "Уходовые процедуры": [
+        { title: "Комбинированная чистка + уход", price: "от 160 ₾", description: "Мягкое очищение и питание кожи с подбором масок и LED-терапией." },
+        { title: "Пилинги (миндальный/молочный/желт. и др.)", price: "от 190 ₾", description: "Подбираем по типу кожи, работаем на обновление и сияние без раздражения." },
+        { title: "Восстановление и увлажнение (маски/LED/массаж)", price: "от 170 ₾", description: "Релакс-протоколы, которые поддерживают барьер и насыщают кожу влагой." }
+      ],
+      "Консультации": [
+        { title: "Офлайн-консультация (осмотр, план ухода)", price: "90 ₾", description: "Диагностика кожи, подбор процедур и домашнего ухода в кабинете." },
+        { title: "Онлайн-консультация (30–40 минут)", price: "70 ₾", description: "Разбор текущего ухода и рекомендации по продуктам в формате видеовстречи." }
+      ]
+    };
+
+    const certificatesData = [
+      { src: "assets/diploma.webp", alt: "Диплом врача Александры Погудкиной", caption: "Диплом врача, 2016" },
+      { src: "assets/cert-1.webp", alt: "Сертификат по косметологии", caption: "Сертификат косметолога, 2022" },
+      { src: "assets/cert-2.webp", alt: "Сертификат по инъекционным методикам", caption: "Инъекционные методики, 2023" }
+    ];
+
+    const reviewsData = [
+      { name: "О., Анна", text: "Очень деликатно, без синяков. План ухода понятный и рабочий. Спасибо!" },
+      { name: "С., Мария", text: "После биоревитализации кожа стала заметно лучше. Бережное отношение и стерильность." },
+      { name: "К., Ирина", text: "Была на консультации онлайн — разобрали уход, подобрали средства. Результат вижу уже через 2 недели." }
+    ];
+
+    const articlesData = [
+      { title: "Как подготовиться к инъекциям: чек-лист пациента", slug: "prep-injections", date: "2025-09-01" },
+      { title: "Уход за кожей после процедур: что важно делать", slug: "aftercare-skin", date: "2025-09-05" },
+      { title: "Чистка или пилинг: как выбрать первую процедуру", slug: "cleaning-vs-peel", date: "2025-09-10" }
+    ];
+
+    const serviceTabsContainer = document.querySelector('.service-tabs');
+    const serviceGrid = document.getElementById('service-grid');
+    const certificatesGrid = document.querySelector('.certificates-grid');
+    const reviewsSlider = document.querySelector('.reviews-slider');
+    const reviewsTrack = document.querySelector('.reviews-track');
+    const sliderButtons = document.querySelectorAll('.slider-button');
+    const articlesGrid = document.querySelector('.articles-grid');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImage = lightbox.querySelector('img');
+    const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+    const modal = document.querySelector('.modal');
+    const modalTitle = modal.querySelector('.modal-title');
+    const modalDate = modal.querySelector('.modal-date');
+
+    let currentCategory = Object.keys(servicesData)[0];
+
+    function renderServiceTabs() {
+      Object.keys(servicesData).forEach((category, index) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'service-tab';
+        button.setAttribute('role', 'tab');
+        button.setAttribute('aria-selected', index === 0 ? 'true' : 'false');
+        button.id = `service-tab-${index}`;
+        button.textContent = category;
+        button.setAttribute('aria-controls', 'service-grid');
+        button.addEventListener('click', () => {
+          document.querySelectorAll('.service-tab').forEach(tab => tab.setAttribute('aria-selected', 'false'));
+          button.setAttribute('aria-selected', 'true');
+          currentCategory = category;
+          renderServiceCards(category);
+        });
+        serviceTabsContainer.append(button);
+      });
+    }
+
+    function renderServiceCards(category) {
+      serviceGrid.innerHTML = '';
+      servicesData[category].forEach(service => {
+        const card = document.createElement('article');
+        card.className = 'service-card';
+        card.innerHTML = `
+          <h3>${service.title}</h3>
+          <p class="service-meta">${service.price}</p>
+          <p>${service.description}</p>
+          <button type="button" aria-label="Записаться на услугу ${service.title}">Записаться</button>
+        `;
+        card.querySelector('button').addEventListener('click', () => {
+          window.open('https://t.me/SashaTalan', '_blank', 'noopener,noreferrer');
+        });
+        serviceGrid.append(card);
+      });
+      const activeTab = document.querySelector('.service-tab[aria-selected="true"]');
+      if (activeTab) {
+        serviceGrid.setAttribute('aria-labelledby', activeTab.id);
+      }
+    }
+
+    function renderCertificates() {
+      certificatesData.forEach(item => {
+        const figure = document.createElement('figure');
+        figure.className = 'certificate-card';
+        figure.setAttribute('role', 'listitem');
+        figure.innerHTML = `
+          <!-- TODO: заменить заглушки картинок на реальные. -->
+          <img src="${item.src}" alt="${item.alt}" loading="lazy">
+          <figcaption>${item.caption}</figcaption>
+        `;
+        figure.addEventListener('click', () => openLightbox(item));
+        figure.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openLightbox(item);
+          }
+        });
+        figure.tabIndex = 0;
+        certificatesGrid.append(figure);
+      });
+    }
+
+    function openLightbox(item) {
+      lightboxImage.src = item.src;
+      lightboxImage.alt = item.alt;
+      lightboxCaption.textContent = item.caption;
+      lightbox.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeLightbox() {
+      lightbox.setAttribute('aria-hidden', 'true');
+      lightboxImage.src = '';
+      lightboxImage.alt = '';
+    }
+
+    function renderReviews() {
+      reviewsTrack.innerHTML = '';
+      reviewsData.forEach(review => {
+        const card = document.createElement('article');
+        card.className = 'review-card';
+        card.innerHTML = `
+          <h3>${review.name}</h3>
+          <p>${review.text}</p>
+        `;
+        reviewsTrack.append(card);
+      });
+    }
+
+    let currentSlide = 0;
+
+    function getMaxSlide() {
+      const cards = reviewsTrack.children;
+      if (!cards.length) return 0;
+      const gap = parseFloat(getComputedStyle(reviewsTrack).gap) || 0;
+      const cardWidth = cards[0].getBoundingClientRect().width + gap;
+      const containerWidth = reviewsSlider.getBoundingClientRect().width;
+      const visibleCount = Math.max(Math.floor((containerWidth + gap) / cardWidth), 1);
+      return Math.max(cards.length - visibleCount, 0);
+    }
+
+    function updateSlider() {
+      const cards = reviewsTrack.children;
+      if (!cards.length) return;
+      const styles = getComputedStyle(reviewsTrack);
+      const gap = parseFloat(styles.gap) || 0;
+      const cardWidth = cards[0].getBoundingClientRect().width + gap;
+      const maxIndex = getMaxSlide();
+      currentSlide = Math.min(currentSlide, maxIndex);
+      reviewsTrack.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+      sliderButtons[0].disabled = currentSlide === 0;
+      sliderButtons[1].disabled = currentSlide === maxIndex;
+      sliderButtons.forEach(button => {
+        button.setAttribute('aria-disabled', button.disabled ? 'true' : 'false');
+      });
+    }
+
+    sliderButtons[0].addEventListener('click', () => {
+      if (sliderButtons[0].disabled) return;
+      currentSlide = Math.max(currentSlide - 1, 0);
+      updateSlider();
+    });
+
+    sliderButtons[1].addEventListener('click', () => {
+      if (sliderButtons[1].disabled) return;
+      const maxSlide = getMaxSlide();
+      currentSlide = Math.min(currentSlide + 1, maxSlide);
+      updateSlider();
+    });
+
+    window.addEventListener('resize', () => {
+      updateSlider();
+    });
+
+    function renderArticles() {
+      articlesData.forEach(article => {
+        const card = document.createElement('article');
+        card.className = 'article-card';
+        const formattedDate = new Date(article.date).toLocaleDateString('ru-RU', { day: '2-digit', month: 'long', year: 'numeric' });
+        card.innerHTML = `
+          <!-- TODO: заменить заглушки картинок на реальные. -->
+          <img src="assets/${article.slug}.webp" alt="${article.title}" loading="lazy">
+          <div class="article-content">
+            <h3>${article.title}</h3>
+            <p class="article-date">${formattedDate}</p>
+            <button type="button" aria-label="Читать статью ${article.title}">Читать</button>
+          </div>
+        `;
+        card.querySelector('button').addEventListener('click', () => openModal(article, formattedDate));
+        articlesGrid.append(card);
+      });
+    }
+
+    function openModal(article, formattedDate) {
+      modalTitle.textContent = article.title;
+      modalDate.textContent = formattedDate;
+      modal.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeModal() {
+      modal.setAttribute('aria-hidden', 'true');
+    }
+
+    document.querySelectorAll('.close-button').forEach(button => {
+      button.addEventListener('click', () => {
+        closeLightbox();
+        closeModal();
+      });
+    });
+
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeLightbox();
+        closeModal();
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderServiceTabs();
+      renderServiceCards(currentCategory);
+      renderCertificates();
+      renderReviews();
+      renderArticles();
+      updateSlider();
+    });
+  </script>
+</body>
+</html>
